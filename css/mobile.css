@@ -1,0 +1,52 @@
+#showcase {
+  text-align: center; }
+  #showcase .roundedButtonLg {
+    margin-bottom: 5rem; }
+
+.cloud1 {
+  padding-top: 125px; }
+
+#why .text,
+#ourprocess .text,
+#pricing .text,
+#talk .text,
+#solutions .text {
+  order: 1;
+  padding: 2rem; }
+
+#why .img,
+#ourprocess .img,
+#pricing .img,
+#talk .img,
+#solutions .img {
+  order: 2;
+  padding-top: 3rem; }
+
+#why .text {
+  margin-top: -100px; }
+
+#ourprocess .text {
+  margin-top: -50px; }
+
+#solutions .text {
+  margin-top: -50px; }
+
+#pricing .text {
+  order: 1;
+  margin-top: -100px; }
+
+#pricing .cards {
+  order: 2; }
+  #pricing .cards .card:hover {
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    transform: scale(1.2); }
+
+#talk .text {
+  margin-top: -100px; }
+
+.cloud2 {
+  padding-top: 32px; }
+
+#main-footer .learn {
+  padding-top: 30px; }

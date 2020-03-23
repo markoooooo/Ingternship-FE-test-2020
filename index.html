@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+
+  <link rel="stylesheet" media="screen and (min-width: 769px)" href="css/widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Ingsoftware Internship</title>
+
+  <script src="https://kit.fontawesome.com/a4d30a205e.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> -->
+  <script defer src="/js/main.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top py-4" id="main-nav">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="img/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#what" class="nav-link">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a href="#customer" class="nav-link">Customer stories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#talk" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SECTION -->
+  <section id="showcase" class="py-5">
+    <!-- <div class="primary-overlay text-dark"> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="display-5 mt-4 pt-4">
+            Grow Your Business with <br> Our Marketing Solutions
+          </h1>
+          <p class="lead py-3">We help our client to increase their website traffic, ranking and visibility in
+            search results.</p>
+          <a href="#" class="btn roundedButtonLg text-uppercase">Try It For Free</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-center align-items-center rocket3">
+            <img src="img/rocket3.png" alt="Rocket" class="img-fluid d-none d-lg-block" width="400px" height="400px">
+          </div>
+          <div class="d-flex justify-content-center align-items-center rocket2">
+            <img src="img/rocket2.png" alt="Rocket" class="img-fluid d-none d-lg-block" width="225px" height="225px">
+          </div>
+          <div class="d-flex justify-content-center align-items-center rocket4">
+            <img src="img/rocket4.png" alt="Rocket" class="img-fluid d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+
+  <!-- CLOUD SECTION -->
+  <div class="cloud1">
+    <img src="/img/rocket1.png" alt="Cloud" class="img-fluid">
+  </div>
+
+  <!-- WHAT WE DO -->
+  <section id="what" class="py-5  text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="info-header">
+            <small class="text-muted text-uppercase">What We Do?</small>
+            <h3 class="py-3 mb-5">The full service we are offering is specifically designed to meed your business needs.
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-search fa-2x py-4 seo"></i>
+              <h4 class="pt-4"><strong>SEO Services</strong></h4>
+              <p class="text-muted py-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida
+                at eget metus. Cras justo.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-edit fa-2x py-4 web"></i>
+              <h4 class="pt-4"><strong>Web Design</strong></h4>
+              <p class="text-muted py-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida
+                at eget metus. Cras justo.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-share-alt fa-2x py-4 social"></i>
+              <h4 class="pt-4"><strong>Social Engagement</strong></h4>
+              <p class="text-muted py-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida
+                at eget metus. Cras justo.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="fas fa-poll fa-2x py-4 marketing"></i>
+              <h4 class="pt-4"><strong>Content Marketing</strong></h4>
+              <p class="text-muted py-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida
+                at eget metus. Cras justo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US SECTION -->
+  <section id="why" class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 img">
+          <img src="/img/concept8.png" alt="Concept8" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-6 text">
+          <small class="text-muted text-uppercase">Why Choose Us?</small>
+          <h3 class="py-3">Why is Search Engine Optimization important for your business?</h3>
+          <p class="pb-2">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus
+            sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Aenean eu leo quam ornare.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Nullam quis risus eget mollis.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Donec elit non mi porta gravida.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Fusce dapibus cursus commodo.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR PROCESS SECTION -->
+  <section id="ourprocess" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text ">
+          <small class="text-muted text-uppercase">Our Process</small>
+          <h3 class="py-3">We bring solutions to make life <br> easier for our customers</h3>
+          <div class="d-flex ">
+            <div class="pl-4 align-self-center light">
+              <i class="far fa-lightbulb fa-2x"></i>
+            </div>
+            <div class="pl-5 align-self-end">
+              <h3 class="pb-3">Collect Ideas</h3>
+              <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                justo.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="pl-4 align-self-center">
+              <i class="fas fa-search fa-2x search"></i>
+            </div>
+            <div class="pl-5 align-self-end">
+              <h3 class="pb-3">Data Analysis</h3>
+              <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                justo.</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="pl-4 align-self-center heart">
+              <i class="far fa-heart fa-2x"></i>
+            </div>
+            <div class="pl-5 align-self-end">
+              <h3 class="pb-3">Magic Touch</h3>
+              <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                justo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 img">
+          <img src="/img/concept1.png" alt="explore" class="img-fluid  mb-3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR SOLUTIONS SECTION -->
+  <section id="solutions" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 img">
+          <img src="/img/concept3.png" alt="Concept8" class="img-fluid mb-5">
+        </div>
+        <div class="col-md-6 text">
+          <small class="text-muted text-uppercase">Our Personalized Solutions</small>
+          <h3 class="py-3">Just sit and relax while we take care of your bussines needs</h3>
+          <p class="pb-2">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus
+            sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Aenean eu leo quam ornare.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Nullam quis risus eget mollis.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Donec elit non mi porta gravida.
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="p-2 align-self-start">
+              <i class="fas fa-check"></i>
+            </div>
+            <div class="p-2 align-self-end">
+              Fusce dapibus cursus commodo.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER STORIES SECTION -->
+
+  <section id="customer" class="py-5 mt-4 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header">
+            <small class="text-muted text-uppercase">Customer Stories</small>
+            <h3 class="py-5">Customer satisfaction is our major gola.<br>See what our customers are saying about us.
+            </h3>
+          </div>
+          <!-- TESTIMONIALS -->
+          <section id="testimonials" class="">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="slider">
+                    <div>
+                      <blockquote class="blockquote"> <!--d-flex-->
+                        <div class="d-flex">
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t1.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Connor Gibson <br> 
+                                    <small class="text-muted mr-3">Financial Analyst</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t2.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Coriss Ambady <br> 
+                                    <small class="text-muted">Marketing Specialist</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t3.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Barcay Widerski<br> 
+                                    <small class="text-muted mr-4">Sales Manager</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t4.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Connor Gibson <br> 
+                                    <small class="text-muted mr-3">Financial Analyst</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t5.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Connor Gibson <br> 
+                                    <small class="text-muted mr-3">Financial Analyst</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                          <div class="card">
+                            <div class="card-body">
+                              <p class="text-muted text-sm-left">"Sed posuere consectetur est at lobortis. Lorem ipsum
+                                dolor sit amet, consectetur
+                                adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula."
+                              </p>
+                              <div class="d-flex">
+                                <div class="p-2 align-self-start">
+                                  <img src="img/customer-t6.jpg" alt="" class="img-fluid rounded-circle mb-3"
+                                    width="100px" height="100px">
+                                </div>
+                                <div class="row p-2 align-self-center ml-2">
+                                  <p>Connor Gibson <br> 
+                                    <small class="text-muted mr-3">Financial Analyst</small> 
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </blockquote>
+                    </div>
+                    <div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING SECTION -->
+
+    <section id="pricing" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 text text-left">
+            <small class="text-muted">OUR PRICING</small>
+            <h3 class="py-3">We offer great prices,<br> premium products and quality service for your business.</h3>
+            <p class="pb-2">Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor
+              fringilla.
+              Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est.</p>
+          </div>
+          <div class="col-lg-7 text-center cards">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="justify-content-around">
+                      <hd5 class="text-muted">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span class="display-4 text-dark"> 9 </span> / month
+                        </h5>
+                    </div>
+                    <h5 class="text-muted">Basic Plan</h5>
+                    <div class="card-text text-muted mb-3">
+                      <div><small><strong>1</strong> Project</small></div>
+                      <div><small><strong>100K</strong> Api Access</small></div>
+                      <div><small><strong>100MB</strong> Storage</small></div>
+                      <div><small>Custom <strong>Cloud</strong> Services</small></div>
+                      <div><small>Weekly <strong>Reports</strong></small></div>
+                      <div><small>7/24 <strong>Suport</strong></small></div>
+                    </div>
+                    <div class="card-button">
+                      <button class="btn roundedButtonLg text-uppercase" type="button">Choose Plan</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="justify-content-around">
+                      <h5 class="text-muted">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span class="display-4 text-dark"> 19 </span>/ month
+                      </h5>
+                    </div>
+                    <h5 class="text-muted">Premium Plan</h5>
+                    <div class="card-text text-muted mb-3">
+                      <div><small><strong>5</strong> Project</small></div>
+                      <div><small><strong>100K</strong> Api Access</small></div>
+                      <div><small><strong>200MB</strong> Storage</small></div>
+                      <div><small>Custom <strong>Cloud</strong> Services</small></div>
+                      <div><small>Weekly <strong>Reports</strong></small></div>
+                      <div><small>7/24 <strong>Suport</strong></small></div>
+                    </div>
+                    <div class="card-button">
+                      <button class="btn roundedButtonLg text-uppercase" type="button">Choose Plan</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- LETS TALK SECTION -->
+    <section id="talk" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 img">
+            <img src="/img/concept12.png" alt="Concept12" class="img-fluid mb-5">
+          </div>
+          <div class="col-md-6 text text-left">
+            <small class="text-muted text-uppercase">Let's Talk</small>
+            <h3 class="py-3">Let's make something great together.<br>If you got any questions, don't <br> hesitate to
+              get
+              in touch with us. </h3>
+            <p class="pb-2 text-muted">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus
+              eget
+              urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed
+              consectetur.</p>
+            <button class="btn roundedButtonLg text-uppercase" data-toggle="modal" data-target="#contactModal">Contact
+              Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- CONTACT SECTION BONUS -->
+  <!-- CONTACT MODAL-->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea class="form-control" placeholder="Message" rows="6"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn roundedButtonLg btn-block text-uppercase">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER SECTION -->
+  <section id="newsletter" class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <small class="text-muted text-uppercase text">Analyze Now</small>
+          <h3 class="py-3">Wonder how much faster your website can go? <br>Easy check your SEO score now.</h3>
+          <div id="error" class="alert" style="color: red;"></div>
+          <form action="/" method="GET" id="form" class="form-inline justify-content-center">
+            <input type="email" id="email" class="form-control mb-2 mr-2 text-muted" placeholder="Email Address">
+            <button type="submit" class="btn roundedButtonLg mb-2 text-uppercase">Analyze</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOUD IMAGE SECTION -->
+  <div class="cloud2">
+    <img src="/img/rocket1.png" alt="Cloud" class="img-fluid">
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer id="main-footer" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <h5 class="pb-3">Popular Posts</h5>
+          <div class="d-flex">
+            <div class="align-self-start">
+              <a href="#"><img src="/img/footer-a1.jpg" alt="" class="img-fluid rounded pb-3"></a>
+            </div>
+            <div class="row align-self-end text-muted ml-3">
+              <a href="">Magana Molis Ulitricies</a>
+              <div class="d-flex justify-content-between">
+                <i class="far fa-clock pr-2"></i>
+                <p class="pr-2 "> 12 NOV 2017 </p>
+                <i class="far fa-comment pr-2"><span class="px-2">4</span> </i>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="align-self-start">
+              <a href="#"><img src="/img/footer-a2.jpg" alt="" class="img-fluid rounded pb-3"></a>
+            </div>
+            <div class="row align-self-end text-muted ml-3">
+              <a href="">Ornare Nullam Risus</a>
+              <div class="d-flex justify-content-between">
+                <i class="far fa-clock pr-2"></i>
+                <p class="pr-2 "> 12 NOV 2017 </p>
+                <i class="far fa-comment pr-2"><span class="px-2">4</span> </i>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="align-self-start">
+              <a href="#"><img src="/img/footer-a3.jpg" alt="" class="img-fluid rounded  pb-3"></a>
+            </div>
+            <div class="row align-self-end text-muted ml-3">
+              <a href="">Euismod Nullam</a>
+              <div class="d-flex justify-content-between">
+                <i class="far fa-clock pr-2"></i>
+                <p class="pr-2 "> 12 NOV 2017 </p>
+                <i class="far fa-comment pr-2"><span class="px-2">4</span> </i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h5 class="pb-3 pt-4">Tags</h5>
+          <button class="btn roundedButtonSm mb-2">STILL LIFE</button>
+          <button class="btn roundedButtonSm mb-2 ml-2">URBAN</button>
+          <br>
+          <button class="btn roundedButtonSm">NATURE</button>
+          <button class="btn roundedButtonSm ml-2">LANDSCAPE</button>
+          <h5 class="pb-3 pt-4">Categories</h5>
+          <ul class="row d-inline-block text-muted">
+            <li>Lifestyle (21)</li>
+            <li>Photo (19)</li>
+            <li>Jurnal (16)</li>
+          </ul>
+          <ul class="d-inline-block ml-4 text-muted">
+            <li>Works (7)</li>
+            <li>Stil Life (9)</li>
+            <li>Travel (17)</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 get ">
+          <h5 class="pb-3 pt-4">Get in Touch</h5>
+          <p>Moonshine St. 14/05, </br> Nis, Serbia</p>
+          <a href="mailto:first.last@email.com">info@email.com</a><br />
+          <p>+00 (123) 456 78 90</p>
+          <h5 class="pb-2 pt-4">Elsewhere</h5>
+          <div class="d-flex ">
+            <div class="pr-4 social">
+              <a href="http://twitter.com" target="_blank">
+                <i class="fab fa-twitter text-muted"></i>
+              </a>
+            </div>
+            <div class="pr-4 ">
+              <a href="http://facebook.com" target="_blank">
+                <i class="fab fa-facebook-f text-muted"></i>
+              </a>
+            </div>
+            <div class="pr-4">
+              <a href="http://instagram.com" target="_blank">
+                <i class="fab fa-instagram text-muted"></i>
+              </a>
+            </div>
+            <div class="pr-4">
+              <a href="http://vimeo.com" target="_blank">
+                <i class="fab fa-vimeo-v text-muted"></i>
+              </a>
+            </div>
+            <div class="pr-4">
+              <a href="http://youtube.com" target="_blank">
+                <i class="fab fa-youtube text-muted"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 learn">
+          <h5 class="pb-3">Learn More</h5>
+          <div class="text-muted">
+            <div><a href="#">About Us</a></div>
+            <div><a href="#">Our Story</a></div>
+            <div><a href="#">Projects</a></div>
+          </div>
+          <h5 class="pb-3 pt-4">Need Help?</h5>
+          <div class="text-muted">
+            <div><a href="#">Support</a></div>
+            <div><a href="#">Get Started</a></div>
+            <div><a href="#">Contact Us</a></div>
+          </div>
+        </div>
+        <h5 class="lead m-auto py-5 text-muted">&copy; <span id="year"></span> All rights reserved.</h5>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Init Scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 1100, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+    // Testimonials 
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
+
+  </script>
+
+</body>
+
+</html>
